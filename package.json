@@ -7,9 +7,14 @@
   ],
   "scripts": {
     "install-all": "npm install --workspaces",
+    "dev": "npm run dev:server",
     "dev:server": "cd server && npm run dev",
     "dev:client": "cd client && npm run dev",
+    "dev:all": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "build:client": "cd client && npm run build",
     "start:server": "cd server && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.1.0"
   }
 }

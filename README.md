@@ -24,6 +24,10 @@ This repository contains a complete adaptive learning platform with:
    - `npm run dev:server`
 2. Start the frontend:
    - `npm run dev:client`
+3. Start the backend from the workspace root:
+   - `npm run dev`
+4. Start both server and client together:
+   - `npm run dev:all`
 
 ### Environment variables
 
@@ -78,4 +82,3 @@ client/
 ├── tailwind.config.js
 ├── postcss.config.js
 └── vite.config.js
-
