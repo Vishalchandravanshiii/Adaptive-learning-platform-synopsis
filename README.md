@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Adaptive Learning Platform
 
 A MERN stack adaptive learning platform prototype with Student, Instructor, and Admin roles.
@@ -82,3 +83,6 @@ client/
 ├── tailwind.config.js
 ├── postcss.config.js
 └── vite.config.js
+=======
+# Adaptive-learning-platform
+>>>>>>> aa717f49c537e3cbbe223248b2558d2462d647ff
